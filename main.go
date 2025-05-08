@@ -129,6 +129,6 @@ func messageCreate(s *discordgo.Session, m *discordgo.MessageCreate) {
 
 	if m.Content == "tivo" || m.Content == "tvo" || m.Content == "Tivo" || m.Content == "Tvo" {
 		log.Printf("Triggered response: %s sent %s", m.Author.Username, m.Content)
-		s.ChannelMessageSend(m.ChannelID, "vai tomar no seu cu irmao")
+		s.ChannelMessageSend(m.ChannelID, "vai tomar no seu c# irmao")
 	}
 }
